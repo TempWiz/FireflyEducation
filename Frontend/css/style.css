@@ -560,3 +560,32 @@
     padding-right: 0;
     border-right: none;
 }
+
+.course-item-link {
+    display: block;
+    transition: transform 0.3s;
+}
+
+.course-item-link:hover .course-item {
+    transform: scale(1.05);
+}
+
+.course-img {
+    width: 100%;
+    height: auto;
+}
+
+.certificate-image {
+    max-width: 967px;
+    max-height: 744px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.certificate-image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
